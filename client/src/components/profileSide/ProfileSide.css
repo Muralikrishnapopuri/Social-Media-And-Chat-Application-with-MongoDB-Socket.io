@@ -1,0 +1,14 @@
+.ProfileSidee{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    overflow: auto;
+}
+/*Responsive Screens*/
+
+@media screen and (min-width:0px) and (max-width:1200px){
+    .ProfileSidee{
+        display: none;
+     }
+}

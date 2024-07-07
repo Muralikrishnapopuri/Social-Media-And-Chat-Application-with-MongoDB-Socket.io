@@ -1,0 +1,94 @@
+
+.FollowersCard{
+    width: 100%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 13px;
+    position: relative;
+    background-color: white;
+    
+    height: 100vh;
+}
+.Navii {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  
+  bottom: 0;
+  background: var(--darkmode-black);
+  border-radius: 5rem;
+  margin-bottom: 1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  box-shadow: 0.2px 0.2px 4px palevioletred;
+
+
+}
+.Navii>a>svg{
+  font-size: 2rem;
+  color:white ;
+  
+}
+.Navii>a>img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin-right: 30px;
+   
+    
+}
+
+.divv{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.followerImage{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.name>span:nth-of-type(1){
+    font-weight:700;
+}
+
+
+.fc-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.UnfollowButton {
+    color:rgb(255, 0, 140);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+    background: transparent;
+}
+
+
+
+

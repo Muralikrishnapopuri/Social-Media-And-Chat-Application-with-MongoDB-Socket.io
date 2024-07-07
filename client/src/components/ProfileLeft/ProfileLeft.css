@@ -1,0 +1,7 @@
+/*Responsive Screens*/
+
+@media screen and (min-width:0px) and (max-width:1200px){
+    .ProfileSide{
+        display: none;
+     }
+}

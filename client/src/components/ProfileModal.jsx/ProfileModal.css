@@ -1,0 +1,14 @@
+.uploads{
+    border:1px darkblue dashed;
+    padding: 11px;
+    border-radius: 10px;
+    width: 10rem;
+    text-align: center;
+    font-size: large;
+}
+#img1:hover , #img2:hover{
+    background: var(--buttonBg);
+    color: white;
+    cursor: pointer;
+
+}
