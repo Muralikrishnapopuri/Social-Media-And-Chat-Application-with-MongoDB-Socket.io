@@ -6,7 +6,9 @@
     position: relative;
     gap: 1rem;
     overflow-x: clip;
-    background: var(--cardColor);
+    background-color:rgba(255, 255, 255, 0.10) ;
+    backdrop-filter: blur(10px);
+    color: white;
 }
 
 .ProfileImages{

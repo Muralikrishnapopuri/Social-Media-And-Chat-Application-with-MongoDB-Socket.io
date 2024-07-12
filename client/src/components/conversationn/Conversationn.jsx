@@ -36,7 +36,7 @@ const Conversationn = ({data, currentUserId, online }) => {
             <img src={userData?.profilepicture? serverPublic + userData.profilepicture : serverPublic + 'defaultProfile.png'} alt="" className='followerImage' style={{width: "50px", height:"50px"}} />
             <div className="name" style={{fontSize: "0.8rem"}} >
                 <span>{userData?.firstname}{userData?.lastname}</span>
-                <span>{online? "Online": "Offline"}</span>
+                <span style={{color:online?"green":"white"}}>{online? "Online": "Offline"}</span>
             </div>
         </div>
     </div>

@@ -136,9 +136,7 @@ import InputEmoji from 'react-input-emoji'
         </>
         )
         : (
-            <span className='chatbox-empty-message'>
-                Tap on your Frineds Profile to Start Conversation with Them...
-            </span>
+            ""
         )
        }
         

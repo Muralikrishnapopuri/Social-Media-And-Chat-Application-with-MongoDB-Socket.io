@@ -43,7 +43,7 @@ const Auth = () => {
         <img src={entry} alt="" />
         <div className="Webname">
           <h1>Krish Media</h1>
-          <h6>Explore the ideas throughout the world</h6>
+          <h6>Meet new online frineds and post your daily routine</h6>
         </div>
       </div>
       {/* right*/}

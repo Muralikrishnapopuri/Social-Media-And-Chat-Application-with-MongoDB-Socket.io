@@ -5,10 +5,11 @@
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    
+    color: white;
     font-size: 13px;
     position: relative;
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.10) ;
+    backdrop-filter: blur(10px);
     
     height: 100vh;
 }
@@ -86,7 +87,7 @@
     color:rgb(255, 0, 140);
     border: 2px solid var(--orange);
     cursor: pointer;
-    background: transparent;
+    background: white;
 }
 
 

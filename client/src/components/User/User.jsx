@@ -31,7 +31,7 @@ const User = ({person}) => {
                             />
                         <div className="name">
                             <span >{person.firstname}{person.lastname}</span>
-                            <span>@{person.username}</span>
+                            <span style={{color:"white"}}>@{person.username}</span>
                         </div>
                         
                     </div>

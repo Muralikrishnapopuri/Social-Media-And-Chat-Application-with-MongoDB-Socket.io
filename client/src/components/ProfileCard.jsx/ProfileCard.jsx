@@ -42,12 +42,12 @@ import axios from "axios";
         <div>
           <div className="follow">
             <span>{person===undefined?(user.following.length):(person.following.length)}</span>
-            <span>Followings</span>
+            <span style={{color:"white",fontWeight:"bold"}}>Followings</span>
           </div>
           <div className="vl"></div>
           <div className="follow">
             <span>{person===undefined?(user.followers.length):(person.followers.length)}</span>
-            <span>Followers</span>
+            <span style={{color:"white",fontWeight:"bold"}}>Followers</span>
           </div>
 
           {location === "profilePage" && (
@@ -55,7 +55,7 @@ import axios from "axios";
               <div className="vl"></div>
               <div className="follow">
                 <span>{person===undefined?(posts.filter((post)=>post.userId === user._id).length):(posts.filter((post)=>post.userId === person._id).length)}</span>
-                <span>Posts</span>
+                <span style={{color:"white",fontWeight:"bold"}}>Posts</span>
               </div>
             </>
           )}
@@ -69,7 +69,7 @@ import axios from "axios";
    
       </div>
       {location === "profilePage" ? ("") : <span>
-        <Link style={{textDecoration:"none", color:"orange"}} to={`/profile/${user._id}`}>
+        <Link style={{textDecoration:"none", color:"#ff0080"}} to={`/profile/${user._id}`}>
         My Profile
         </Link>
         </span>}

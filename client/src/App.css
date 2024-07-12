@@ -5,9 +5,9 @@
   --gray: rgba(36, 45, 73, 0.65);
   --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
   --hrColor: #cfcdcd;
-  --cardColor: white;
+  --cardColor: rgb(255, 255, 255);
   --buttonBg: linear-gradient(98.63deg, #ff0084 0%, #ff00b3 100%);
-  --darkmodebuttonBg : linear-gradient(98.63deg, #ff02e1 0%, yellow 100%);
+  --darkmodebuttonBg : linear-gradient(98.63deg, #00de85 0%, #63b0af 100%);
   --inputColor: rgba(40, 52, 62, 0.07);
   --photo: #4CB256;
   --video: #4A4EB7;
@@ -22,19 +22,20 @@
 .App{
   overflow: hidden;
   color: var(--black);
-  background: #f3f3f3;
+  background-image: url("bg-6.jpg");
+  background-size: cover;
   padding: 1rem 1rem;
   /* height: 10rem; */
 }
 
-.blur{
+/* .blur{
   position: absolute;
   width: 22rem;
   height: 14rem;
   border-radius: 50%;
-  background:#FF69B4;
+  background:#7b6957;
   filter: blur(72px)
-} 
+}  */
 
 .button{
   display: flex;
@@ -55,7 +56,7 @@
 }
 
 .button:disabled{
-  background: silver;
+  background: rgb(255, 255, 255);
   pointer-events: none;
 }
 
