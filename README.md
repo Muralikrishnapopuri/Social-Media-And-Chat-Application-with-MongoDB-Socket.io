@@ -1,7 +1,7 @@
 
 <div align="center">
     <h1 align="center">Social Media Application along with private chat [ client side and server side ] </h1>
-  <img src="https://portfolio-murali-krishna.netlify.app/assets/images/Socialmediathumb.png" width="300px" align="center" />
+  <img alt="Mockup thumnail" src="https://portfolio-murali-krishna.netlify.app/assets/images/Socialmediathumb.png" width="300px" align="center" />
 </div>
 <div>
   <h3>-Description</h3>
@@ -13,4 +13,8 @@
     <li>The most interesting feature is a user can able do private chate with existing users. no one can see that messages .</li>
   </ul>
   
+</div>
+<div>
+    <h3>-Performance</h3>
+    
 </div>
