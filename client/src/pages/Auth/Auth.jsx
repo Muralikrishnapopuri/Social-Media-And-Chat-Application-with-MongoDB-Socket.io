@@ -49,7 +49,7 @@ const Auth = () => {
       {/* right*/}
       <div className="a-right">
       <form onSubmit={handleSubmit} className="infoForm authForm">
-        <h3> {isSignUp?  "Sign up" : "Login"}</h3>
+        <h3 style={{color:"white"}}> {isSignUp?  "Sign up" : "Login"}</h3>
         {
           isSignUp && 
           <div>
@@ -108,7 +108,7 @@ const Auth = () => {
         </span>
 
         <div>
-            <span style={{fontSize: '12px', cursor:"pointer"}} onClick={()=>{setIsSignUp((prev)=>!prev);resetForm()}}>{isSignUp ? "Already have an account. Login!" : "Don't have an account? Signup"}</span>
+            <span style={{fontSize: '12px', cursor:"pointer",color:"white"}} onClick={()=>{setIsSignUp((prev)=>!prev);resetForm()}}>{isSignUp ? "Already have an account. Login!" : "Don't have an account? Signup"}</span>
         </div>
         <button  className="button infoButton" type="submit" disabled={loading}>{loading? "Loading..." : isSignUp ? "Signup" : "Login"}</button>
       </form>
