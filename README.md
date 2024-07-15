@@ -24,3 +24,26 @@
     <li>Implemented private chat with socket.oi</li>
     </ol>
 </div>
+<div>
+    <h3>-Required Tools and Packages</h3>
+    <h5>Backend-</h5>
+    <ul>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>cors</li>
+        <li>Mongoose</li>
+        <li>jsonwebtoken</li>
+        <li>socket.io</li>
+        <li>multer</li>
+    </ul>
+        <h5>Frontend-</h5>
+    <ul>
+        <li>React.js</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>axios</li>
+        <li>socket.io-client</li>
+        <li>React-Redux</li>
+        <li>multer</li>
+    </ul>
+</div>
