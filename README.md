@@ -15,6 +15,12 @@
   
 </div>
 <div>
-    <h3>-Performance</h3>
-    
+    <h3>-Working and Performance</h3>
+    <ol>
+    <li>User Authentication with Jsonwebtoken</li>
+    <li>Stores Data in MongoDB using mongoose and all crud operations through get,push,put methodes.</li>
+    <li>Counting post likes and accessing global user data using react-redux with javascript.</li>
+    <li>Checking online status to know user is online or offline using socket.io</li>
+    <li>Implemented private chat with socket.oi</li>
+    </ol>
 </div>
