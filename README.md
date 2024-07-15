@@ -50,4 +50,9 @@
 
 <h2>Repo -</h2>
 <a href="https://github.com/Muralikrishnapopuri/Social-Media-And-Chat-Application-with-MongoDB-Socket.io">Git Clone ....</a>
+<h2>Directories info -</h2>
+  <p><b>Chat-server</b> consisting of controllers, routes, middleware, database(mongodb)</p>
+  <p><b>client</b> folder have fontend ui design using react.js javascrpit ,html , css etc</p>
+  <p><b>socket-server</b>carries socket.io methods like generating socket-id when user enters into application and it responsble for redirect to personal chat. </p>
+  <h1 align="center">Thank You</h1>
 
