@@ -33,7 +33,7 @@ const Post = ({data, persons}) => {
   const handleDelete = (e)=> {
     e.preventDefault();
       axios.delete(`https://krish-media.onrender.com/posts/${data._id}/${user._id}`);
-      
+      window.location.reload();
   }
   
   return (
